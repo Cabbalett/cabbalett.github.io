@@ -371,6 +371,7 @@ content:
           <a href="https://drive.google.com/file/d/1ABPHR07JeSjnyME7bs80YiBEN8zv9kYW/view?usp=share_link">Paper</a>
           
       - layout: left
+        border: weak
         title: Boostcamp AI Tech
         sub_title: Student
         caption: AUG 2021 - DEC 2021
@@ -410,7 +411,7 @@ content:
       - layout: top
         title: Exploiting Representation Curvature for Boundary Detection in Time Series
         sub_title: NeurIPS 2024
-        caption: Y. Shin, **J. Park**, S. Yoon, B. Lee, *JG. Lee*
+        caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
         
   - title: Awards
     layout: list
