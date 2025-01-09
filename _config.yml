@@ -409,8 +409,8 @@ content:
     content:
       - layout: top
         title: Exploiting Representation Curvature for Boundary Detection in Time Series
-        sub_title: Y. Shin, **J. Park**, S. Yoon, B. Lee, *JG. Lee*
-        caption: NeurIPS 2024
+        sub_title: NeurIPS 2024
+        caption: Y. Shin, **J. Park**, S. Yoon, B. Lee, *JG. Lee*
         
   - title: Awards
     layout: list
