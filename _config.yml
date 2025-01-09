@@ -305,7 +305,7 @@ version: 2
 
 # Personal info
 name: Jaehyun Park
-job_title: KAIST 18 EE/CS student
+job_title: Master Student @ Data Mining Lab, KAIST
 email: jhpark813@kaist.ac.kr
 # email_title: Email (Email title override)
 # phone_title: Phone (Phone title override)
@@ -348,12 +348,82 @@ gtag: "G-SYCG1ELX3E"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a Master student in KAIST Computer Science, dmlab. 
-  
-  My research interests are in Big data analysis, Time-series data, ML/AI, social science.
+  I am a master's student in Data Mining Lab, KAIST. My research interests are active learning, data selection/curation, and efficient ML.
 
   I like to understand the task deeply and try to lead a group to make reasonable results.
 content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: IBS Data Science Group
+        sub_title: Research Intern
+        caption: July 2022 - Present
+        description: | # this will include new lines to allow paragraphs
+          Research on **Technical Progress in Social Activities**. Utilizing meetup.com dataset for longitudinal studies tracing the changes in contents and descriptions of a specific type of social activities driven by technological environment.
+
+          Learned about:
+            - Natural Language Processing: Word2Vec, Topic Modeling, Gensim, nltk
+            - Exploratory Data Analysis
+
+          <a href="https://drive.google.com/file/d/1ABPHR07JeSjnyME7bs80YiBEN8zv9kYW/view?usp=share_link">Paper</a>
+          
+      - layout: left
+        title: Boostcamp AI Tech
+        sub_title: Student
+        caption: AUG 2021 - DEC 2021
+        description: | # this will include new lines to allow paragraphs
+          I got a chance to study in a coding camp to experience End-to-End AI production process. I was able to learn to define tasks and implement various neural network architectures via <mark>PyTorch</mark>.
+          I participated in image classification, semantic segmentation, object detection, model optimization competitions and develop my knowledge.
+
+          Learned about:
+          - Computer Vision: Image Classification, Object Detection, Semantic Segmentation
+          - Basic NLP: RNN, LSTM/GRU, Transformer
+          - Model Optimization: Model Pruning, AutoML(Optuna), Model Quantization
+          - Data Visualization: Exploratory Data Analysis, Seaborn
+          - Product Serving: FastAPI, Docker, GCP
+
+      - layout: left
+        title: SK Hynix Information Sensor Technology
+        sub_title: Intern
+        caption: JUN 2021 - AUG 2021
+        description: | # this will include new lines to allow paragraphs
+          Participated in investigation of depth-sensing error dependency on demodulation constrast.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: KAIST(Korea Advanced Institute of Science & Technology)
+        sub_title: Computer Science
+        caption: MAR 2023 - Present, Master
+      - layout: top-middle
+        title: KAIST(Korea Advanced Institute of Science & Technology)
+        sub_title: Electrical Engineering / Computer Science
+        caption: MAR 2018 - FEB 2023, Bachelor
+
+  - title: Publications
+    layout: list
+    content:
+      - layout: top
+        title: Exploiting Representation Curvature for Boundary Detection in Time Series
+        sub_title: Y. Shin, **J. Park**, S. Yoon, B. Lee, *JG. Lee*
+        caption: NeurIPS 2024
+        
+  - title: Awards
+    layout: list
+    content:
+      - layout: top-middle
+        title: Dean's List
+        sub_title: KAIST
+        caption: 2022 Spring
+        description: |
+          Individuals with outstanding academic performance, good conduct and exemplary behavior who have been recommended by the Head of the Department.
+
+          Within top 3% of academic performance.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -406,60 +476,7 @@ content:
           Personal Blog
         description: | # this will include new lines to allow paragraphs
           I try to organize what I've learnt using the Blog. You can check what I have been learning.
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        border: weak
-        title: IBS Data Science Group
-        sub_title: Research Intern
-        caption: July 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-          Research on **Technical Progress in Social Activities**. Utilizing meetup.com dataset for longitudinal studies tracing the changes in contents and descriptions of a specific type of social activities driven by technological environment.
-
-          Learned about:
-            - Natural Language Processing: Word2Vec, Topic Modeling, Gensim, nltk
-            - Exploratory Data Analysis
-
-          <a href="https://drive.google.com/file/d/1ABPHR07JeSjnyME7bs80YiBEN8zv9kYW/view?usp=share_link">Paper</a>
-            
-      - layout: left
-        title: Boostcamp AI Tech
-        sub_title: Student
-        caption: AUG 2021 - DEC 2021
-        description: | # this will include new lines to allow paragraphs
-          I got a chance to study in a coding camp to experience End-to-End AI production process. I was able to learn to define tasks and implement various neural network architectures via <mark>PyTorch</mark>.
-          I participated in image classification, semantic segmentation, object detection, model optimization competitions and develop my knowledge.
-
-          Learned about:
-          - Computer Vision: Image Classification, Object Detection, Semantic Segmentation
-          - Basic NLP: RNN, LSTM/GRU, Transformer
-          - Model Optimization: Model Pruning, AutoML(Optuna), Model Quantization
-          - Data Visualization: Exploratory Data Analysis, Seaborn
-          - Product Serving: FastAPI, Docker, GCP
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-middle
-        title: KAIST(Korea Advanced Institute of Science & Technology)
-        sub_title: Computer Science
-        caption: MAR 2023 - Present, Master
-      - layout: top-middle
-        title: KAIST(Korea Advanced Institute of Science & Technology)
-        sub_title: Electrical Engineering / Computer Science
-        caption: MAR 2018 - FEB 2023, Bachelor
-  - title: Awards
-    layout: list
-    content:
-      - layout: top-middle
-        title: Dean's List
-        sub_title: KAIST
-        caption: 2022 Spring
-        description: |
-          Individuals with outstanding academic performance, good conduct and exemplary behavior who have been recommended by the Head of the Department.
-
-          Within top 3% of academic performance.
+          
   - title: Courses
     layout: list
     content:
