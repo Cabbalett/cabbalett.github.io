@@ -353,46 +353,6 @@ about_content: | # this will include new lines to allow paragraphs
   I like to understand the task deeply and try to lead a group to make reasonable results.
 content:
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        border: weak
-        title: IBS Data Science Group
-        sub_title: Research Intern
-        caption: July 2022 - Present
-        description: | # this will include new lines to allow paragraphs
-          Research on **Technical Progress in Social Activities**. Utilizing meetup.com dataset for longitudinal studies tracing the changes in contents and descriptions of a specific type of social activities driven by technological environment.
-
-          Learned about:
-            - Natural Language Processing: Word2Vec, Topic Modeling, Gensim, nltk
-            - Exploratory Data Analysis
-
-          <a href="https://drive.google.com/file/d/1ABPHR07JeSjnyME7bs80YiBEN8zv9kYW/view?usp=share_link">Paper</a>
-          
-      - layout: left
-        border: weak
-        title: Boostcamp AI Tech
-        sub_title: Student
-        caption: AUG 2021 - DEC 2021
-        description: | # this will include new lines to allow paragraphs
-          I got a chance to study in a coding camp to experience End-to-End AI production process. I was able to learn to define tasks and implement various neural network architectures via <mark>PyTorch</mark>.
-          I participated in image classification, semantic segmentation, object detection, model optimization competitions and develop my knowledge.
-
-          Learned about:
-          - Computer Vision: Image Classification, Object Detection, Semantic Segmentation
-          - Basic NLP: RNN, LSTM/GRU, Transformer
-          - Model Optimization: Model Pruning, AutoML(Optuna), Model Quantization
-          - Data Visualization: Exploratory Data Analysis, Seaborn
-          - Product Serving: FastAPI, Docker, GCP
-
-      - layout: left
-        title: SK Hynix Information Sensor Technology
-        sub_title: Intern
-        caption: JUN 2021 - AUG 2021
-        description: | # this will include new lines to allow paragraphs
-          Participated in investigation of depth-sensing error dependency on demodulation constrast.
-
   - title: Education
     layout: list
     content:
@@ -427,6 +387,46 @@ content:
         #     icon: "far fa-file-pdf"
         #     url: https://drive.google.com/file/d/1jmETwVdDJ9S6WylmiiaArVd_oswRWXB2/view?usp=drive_link
         
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: IBS Data Science Group
+        sub_title: Research Intern
+        caption: July 2022 - Dec 2022
+        description: | # this will include new lines to allow paragraphs
+          Research on **Technical Progress in Social Activities**. Utilizing meetup.com dataset for longitudinal studies tracing the changes in contents and descriptions of a specific type of social activities driven by technological environment.
+
+          Learned about:
+            - Natural Language Processing: Word2Vec, Topic Modeling, Gensim, nltk
+            - Exploratory Data Analysis
+
+          <a href="https://drive.google.com/file/d/1ABPHR07JeSjnyME7bs80YiBEN8zv9kYW/view?usp=share_link">Paper</a>
+          
+      - layout: left
+        border: weak
+        title: Boostcamp AI Tech
+        sub_title: Student
+        caption: AUG 2021 - DEC 2021
+        description: | # this will include new lines to allow paragraphs
+          I got a chance to study in a coding camp to experience End-to-End AI production process. I was able to learn to define tasks and implement various neural network architectures via <mark>PyTorch</mark>.
+          I participated in image classification, semantic segmentation, object detection, model optimization competitions and develop my knowledge.
+
+          Learned about:
+          - Computer Vision: Image Classification, Object Detection, Semantic Segmentation
+          - Basic NLP: RNN, LSTM/GRU, Transformer
+          - Model Optimization: Model Pruning, AutoML(Optuna), Model Quantization
+          - Data Visualization: Exploratory Data Analysis, Seaborn
+          - Product Serving: FastAPI, Docker, GCP
+
+      - layout: left
+        title: SK Hynix Information Sensor Technology
+        sub_title: Intern
+        caption: JUN 2021 - AUG 2021
+        description: | # this will include new lines to allow paragraphs
+          Participated in the investigation of depth-sensing error dependency on demodulation contrast.
+          
   - title: Awards
     layout: list
     content:
@@ -455,8 +455,8 @@ content:
         sub_title: >
           Personal Project
         description: | # this will include new lines to allow paragraphs
-          Implementation of Show-and-Tell model from scratch. Based from simple RNN and CNN background knowledge, I wanted to take a step further and learn
-          linking the two architecture to develop a model with an interesting task.
+          Implementation of Show-and-Tell model from scratch. Based on simple RNN and CNN background knowledge, I wanted to take a step further and learn
+          linking the two architectures to develop a model with an interesting task.
       - layout: top
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -482,7 +482,7 @@ content:
         sub_title: >
           Team Project@Boostcamp
         description: | # this will include new lines to allow paragraphs
-          Developing a YOLO based model to detect kickboard user violation, such as no helmet, more than one rider. I was in charge of the YOLO modeling and Exploratory Data Analysis.
+          Developing a YOLO based model to detect kickboard user violations, such as no helmet, or more than one rider. I was in charge of the YOLO modeling and Exploratory Data Analysis.
       - layout: top
         title: Today I Learned
         link: https://cabbalett.github.io/
@@ -490,7 +490,7 @@ content:
         sub_title: >
           Personal Blog
         description: | # this will include new lines to allow paragraphs
-          I try to organize what I've learnt using the Blog. You can check what I have been learning.
+          I try to organize what I've learned using the Blog. You can check what I have been learning.
           
   - title: Courses
     layout: list
@@ -500,7 +500,7 @@ content:
         sub_title: Electrical Engineering
         caption: A+
         description: | # this will include new lines to allow paragraphs
-          Learned about basics of probability, MLE/MAP estimation, basics of Machine Learning and speech recognition
+          Learned about the basics of probability, MLE/MAP estimation, basics of Machine Learning and speech recognition
       - layout: top
         title: Database and Big Data Systems
         sub_title: Electrical Engineering
@@ -522,7 +522,7 @@ content:
 
           <a href="https://dcase.community/challenge2020/task-unsupervised-detection-of-anomalous-sounds-results">Detecting Anomalous Sounds for Machine Condition Monitoring</a>
 
-          Activity of our group project is organized <a href="https://cabbalett.notion.site/EE488-Team-Project-1d2e82952e144465acc7c573d7003477">here</a>.
+          The activity of our group project is organized <a href="https://cabbalett.notion.site/EE488-Team-Project-1d2e82952e144465acc7c573d7003477">here</a>.
       - layout: top
         title: Machine Learning
         sub_title: Computer Science
