@@ -416,15 +416,16 @@ content:
           - title: pdf
             icon: "far fa-file-pdf"
             url: https://openreview.net/pdf?id=WK2KxPAMQv
+            
       - layout: top
         border: weak
-        title: Active Learning for Continual Learning: Keeping the Past Alive in the Present
-        # sub_title: NeurIPS 2024
-        caption: Under Revision
+        title: Exploiting Representation Curvature for Boundary Detection in Time Series
+        sub_title: NeurIPS 2024
+        caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
         additional_links:
           - title: pdf
             icon: "far fa-file-pdf"
-            url: https://drive.google.com/file/d/1jmETwVdDJ9S6WylmiiaArVd_oswRWXB2/view?usp=drive_link
+            url: https://openreview.net/pdf?id=WK2KxPAMQv
         
   - title: Awards
     layout: list
