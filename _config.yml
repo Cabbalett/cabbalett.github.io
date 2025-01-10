@@ -414,7 +414,7 @@ content:
         caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
         additional_links:
           - title: pdf
-            icon: "fas fa-paste"
+            icon: "far fa-file-pdf"
             url: https://openreview.net/pdf?id=WK2KxPAMQv
         
   - title: Awards
