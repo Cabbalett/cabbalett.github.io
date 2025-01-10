@@ -417,6 +417,7 @@ content:
             icon: "far fa-file-pdf"
             url: https://openreview.net/pdf?id=WK2KxPAMQv
       - layout: top
+        border: weak
         title: Active Learning for Continual Learning: Keeping the Past Alive in the Present
         # sub_title: NeurIPS 2024
         caption: Under Revision
