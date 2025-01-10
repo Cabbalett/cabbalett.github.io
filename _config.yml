@@ -421,7 +421,7 @@ content:
       - layout: top
         title: Active Learning for Continual Learning: Keeping the Past Alive in the Present
         sub_title: Under Revision
-        # caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
+        caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
         additional_links:
           - title: pdf
             icon: "far fa-file-pdf"
