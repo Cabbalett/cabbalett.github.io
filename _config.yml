@@ -419,7 +419,7 @@ content:
       - layout: top
         title: Active Learning for Continual Learning: Keeping the Past Alive in the Present
         # sub_title: NeurIPS 2024
-        caption: Under Review
+        caption: Under Revision
         additional_links:
           - title: pdf
             icon: "far fa-file-pdf"
