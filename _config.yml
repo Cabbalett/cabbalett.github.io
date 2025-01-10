@@ -348,7 +348,9 @@ gtag: "G-SYCG1ELX3E"
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I am a master’s student in the Data Mining Lab at KAIST, with research interests centered on active learning, data selection and curation, and efficient machine learning. I enjoy understanding tasks comprehensively and leading collaborative efforts to achieve meaningful results. My work focuses on exploring the qualities of data that enhance the performance of AI models, with a particular interest in curating datasets to enable more efficient and effective training of large-scale models, including both fine-tuning and pre-training processes.
+  I am a master's student in the Data Mining Lab at KAIST, specializing in active learning, data selection, and efficient machine learning. I like understanding tasks deeply and leading a collaboration to produce impactful results.
+  I focus on investigating data properties that improve AI model performance, with particular interest in curating datasets to guide models toward specific goals, such as implementing constraints or achieving targeted outcomes. 
+  Additionally, I am interested in designing datasets that facilitate efficient and effective training of large-scale models, including both pre-training and fine-tuning stages.
 content:
 
   - title: Education
