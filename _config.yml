@@ -419,8 +419,7 @@ content:
             url: https://openreview.net/pdf?id=WK2KxPAMQv
             
       - layout: top
-        border: weak
-        title: Exploiting Representation Curvature for Boundary Detection in Time Series
+        title: Active Learning for Continual Learning<span>&#58;</span> Keeping the Past Alive in the Present
         sub_title: NeurIPS 2024
         caption: Y. Shin, <b>J. Park</b>, S. Yoon, B. Lee, JG. Lee<sup>*</sup>
         additional_links:
