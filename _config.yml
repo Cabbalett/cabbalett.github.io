@@ -416,6 +416,14 @@ content:
           - title: pdf
             icon: "far fa-file-pdf"
             url: https://openreview.net/pdf?id=WK2KxPAMQv
+      - layout: top
+        title: Active Learning for Continual Learning: Keeping the Past Alive in the Present
+        # sub_title: NeurIPS 2024
+        caption: Under Review
+        additional_links:
+          - title: pdf
+            icon: "far fa-file-pdf"
+            url: https://drive.google.com/file/d/1jmETwVdDJ9S6WylmiiaArVd_oswRWXB2/view?usp=drive_link
         
   - title: Awards
     layout: list
